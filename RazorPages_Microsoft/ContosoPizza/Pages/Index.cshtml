@@ -1,0 +1,11 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "The Home for Hawaian Pizza Lovers";
+    TimeSpan timeInBusiness = DateTime.Now - new DateTime(1939, 9, 1);
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to why I need to modify this</h1>
+    <p>The worst pizza in town for @Convert.ToInt32(timeInBusiness.TotalDays) days!</p>
+</div>
