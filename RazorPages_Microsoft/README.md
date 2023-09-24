@@ -1,3 +1,7 @@
+A simple tutorial I completed to start learning RazorPages. After doing this, I discovered there is something called Blazor.
+*Below is the original README that came with the project*
+---
+
 # Starter app for Create a web UI with ASP.NET Core
 
 Welcome! This is the starter app for the [Create a web UI with ASP.NET Core](https://learn.microsoft.com/training/modules/create-razor-pages-aspnet-core/) Microsoft Training module.
