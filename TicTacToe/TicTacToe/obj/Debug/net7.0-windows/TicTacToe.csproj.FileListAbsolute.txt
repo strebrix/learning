@@ -1,0 +1,17 @@
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\TicTacToe.exe
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\TicTacToe.deps.json
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\TicTacToe.runtimeconfig.json
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\TicTacToe.dll
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\TicTacToe.pdb
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.Form1.resources
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.Properties.Resources.resources
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.csproj.GenerateResource.cache
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.AssemblyInfoInputs.cache
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.AssemblyInfo.cs
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.csproj.CoreCompileInputs.cache
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.dll
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\refint\TicTacToe.dll
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.pdb
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.genruntimeconfig.cache
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\ref\TicTacToe.dll
