@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             menuStrip1 = new MenuStrip();
             menuToolStripMenuItem = new ToolStripMenuItem();
             restartToolStripMenuItem = new ToolStripMenuItem();
@@ -37,8 +38,11 @@
             loadGameToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator2 = new ToolStripSeparator();
             aIToolStripMenuItem = new ToolStripMenuItem();
+            toolStripMenuItem1 = new ToolStripMenuItem();
+            polishToolStripMenuItem = new ToolStripMenuItem();
+            englishToolStripMenuItem = new ToolStripMenuItem();
             helpStripMenuItem1 = new ToolStripMenuItem();
-            toolStripTextBox1 = new ToolStripTextBox();
+            startstopStripMenuItem1 = new ToolStripMenuItem();
             tableLayoutPanel1 = new TableLayoutPanel();
             button9 = new Button();
             button8 = new Button();
@@ -49,90 +53,109 @@
             button3 = new Button();
             button2 = new Button();
             button1 = new Button();
+            splitContainer1 = new SplitContainer();
+            tableLayoutPanel2 = new TableLayoutPanel();
+            textBox9 = new TextBox();
+            textBox8 = new TextBox();
+            textBox7 = new TextBox();
+            textBox4 = new TextBox();
+            textBox3 = new TextBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            button10 = new Button();
+            button11 = new Button();
             menuStrip1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
+            splitContainer1.Panel1.SuspendLayout();
+            splitContainer1.Panel2.SuspendLayout();
+            splitContainer1.SuspendLayout();
+            tableLayoutPanel2.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { menuToolStripMenuItem, helpStripMenuItem1, toolStripTextBox1 });
-            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { menuToolStripMenuItem, helpStripMenuItem1, startstopStripMenuItem1 });
+            resources.ApplyResources(menuStrip1, "menuStrip1");
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(198, 27);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
             // 
             // menuToolStripMenuItem
             // 
-            menuToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { restartToolStripMenuItem, quitToolStripMenuItem, toolStripSeparator1, saveGameToolStripMenuItem, loadGameToolStripMenuItem, toolStripSeparator2, aIToolStripMenuItem });
+            menuToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { restartToolStripMenuItem, quitToolStripMenuItem, toolStripSeparator1, saveGameToolStripMenuItem, loadGameToolStripMenuItem, toolStripSeparator2, aIToolStripMenuItem, toolStripMenuItem1 });
             menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            menuToolStripMenuItem.Size = new Size(50, 23);
-            menuToolStripMenuItem.Text = "Menu";
+            resources.ApplyResources(menuToolStripMenuItem, "menuToolStripMenuItem");
             // 
             // restartToolStripMenuItem
             // 
             restartToolStripMenuItem.Name = "restartToolStripMenuItem";
-            restartToolStripMenuItem.Size = new Size(133, 22);
-            restartToolStripMenuItem.Text = "Restart";
+            resources.ApplyResources(restartToolStripMenuItem, "restartToolStripMenuItem");
             // 
             // quitToolStripMenuItem
             // 
             quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            quitToolStripMenuItem.Size = new Size(133, 22);
-            quitToolStripMenuItem.Text = "Quit";
+            resources.ApplyResources(quitToolStripMenuItem, "quitToolStripMenuItem");
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(130, 6);
+            resources.ApplyResources(toolStripSeparator1, "toolStripSeparator1");
             // 
             // saveGameToolStripMenuItem
             // 
             saveGameToolStripMenuItem.Name = "saveGameToolStripMenuItem";
-            saveGameToolStripMenuItem.Size = new Size(133, 22);
-            saveGameToolStripMenuItem.Text = "Save game";
+            resources.ApplyResources(saveGameToolStripMenuItem, "saveGameToolStripMenuItem");
             // 
             // loadGameToolStripMenuItem
             // 
             loadGameToolStripMenuItem.Name = "loadGameToolStripMenuItem";
-            loadGameToolStripMenuItem.Size = new Size(133, 22);
-            loadGameToolStripMenuItem.Text = "Load game";
+            resources.ApplyResources(loadGameToolStripMenuItem, "loadGameToolStripMenuItem");
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(130, 6);
+            resources.ApplyResources(toolStripSeparator2, "toolStripSeparator2");
             // 
             // aIToolStripMenuItem
             // 
             aIToolStripMenuItem.Checked = true;
             aIToolStripMenuItem.CheckState = CheckState.Checked;
             aIToolStripMenuItem.Name = "aIToolStripMenuItem";
-            aIToolStripMenuItem.Size = new Size(133, 22);
-            aIToolStripMenuItem.Text = "AI";
+            resources.ApplyResources(aIToolStripMenuItem, "aIToolStripMenuItem");
             aIToolStripMenuItem.Click += aIToolStripMenuItem_Click;
+            // 
+            // toolStripMenuItem1
+            // 
+            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { polishToolStripMenuItem, englishToolStripMenuItem });
+            toolStripMenuItem1.Name = "toolStripMenuItem1";
+            resources.ApplyResources(toolStripMenuItem1, "toolStripMenuItem1");
+            // 
+            // polishToolStripMenuItem
+            // 
+            polishToolStripMenuItem.Name = "polishToolStripMenuItem";
+            resources.ApplyResources(polishToolStripMenuItem, "polishToolStripMenuItem");
+            polishToolStripMenuItem.Click += polishToolStripMenuItem_Click;
+            // 
+            // englishToolStripMenuItem
+            // 
+            englishToolStripMenuItem.Name = "englishToolStripMenuItem";
+            resources.ApplyResources(englishToolStripMenuItem, "englishToolStripMenuItem");
+            englishToolStripMenuItem.Click += englishToolStripMenuItem_Click;
             // 
             // helpStripMenuItem1
             // 
             helpStripMenuItem1.Name = "helpStripMenuItem1";
-            helpStripMenuItem1.Size = new Size(47, 23);
-            helpStripMenuItem1.Text = "Help!";
+            resources.ApplyResources(helpStripMenuItem1, "helpStripMenuItem1");
+            helpStripMenuItem1.Click += helpStripMenuItem1_Click;
             // 
-            // toolStripTextBox1
+            // startstopStripMenuItem1
             // 
-            toolStripTextBox1.BackColor = SystemColors.Info;
-            toolStripTextBox1.Name = "toolStripTextBox1";
-            toolStripTextBox1.ReadOnly = true;
-            toolStripTextBox1.Size = new Size(90, 23);
-            toolStripTextBox1.Text = "Hello!";
-            toolStripTextBox1.ToolTipText = "Status Box";
+            startstopStripMenuItem1.Name = "startstopStripMenuItem1";
+            resources.ApplyResources(startstopStripMenuItem1, "startstopStripMenuItem1");
+            startstopStripMenuItem1.Click += startstopStripMenuItem1_Click;
             // 
             // tableLayoutPanel1
             // 
-            tableLayoutPanel1.ColumnCount = 3;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.33333F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 33.3333359F));
+            resources.ApplyResources(tableLayoutPanel1, "tableLayoutPanel1");
             tableLayoutPanel1.Controls.Add(button9, 2, 2);
             tableLayoutPanel1.Controls.Add(button8, 1, 2);
             tableLayoutPanel1.Controls.Add(button7, 0, 2);
@@ -142,175 +165,192 @@
             tableLayoutPanel1.Controls.Add(button3, 2, 0);
             tableLayoutPanel1.Controls.Add(button2, 1, 0);
             tableLayoutPanel1.Controls.Add(button1, 0, 0);
-            tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(0, 27);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 3;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 33.3333321F));
-            tableLayoutPanel1.Size = new Size(198, 197);
-            tableLayoutPanel1.TabIndex = 1;
             // 
             // button9
             // 
-            button9.Dock = DockStyle.Fill;
+            resources.ApplyResources(button9, "button9");
             button9.FlatAppearance.BorderColor = Color.Black;
             button9.FlatAppearance.MouseDownBackColor = SystemColors.Control;
             button9.FlatAppearance.MouseOverBackColor = Color.White;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Font = new Font("Copperplate Gothic Light", 39.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button9.Image = Properties.Resources.X;
-            button9.Location = new Point(131, 130);
-            button9.Margin = new Padding(0);
             button9.Name = "button9";
-            button9.Size = new Size(67, 67);
-            button9.TabIndex = 8;
             button9.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
-            button8.Dock = DockStyle.Fill;
+            resources.ApplyResources(button8, "button8");
             button8.FlatAppearance.BorderColor = Color.Black;
             button8.FlatAppearance.MouseDownBackColor = SystemColors.Control;
             button8.FlatAppearance.MouseOverBackColor = Color.White;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Copperplate Gothic Light", 39.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button8.Image = Properties.Resources.X;
-            button8.Location = new Point(65, 130);
-            button8.Margin = new Padding(0);
             button8.Name = "button8";
-            button8.Size = new Size(66, 67);
-            button8.TabIndex = 7;
             button8.UseVisualStyleBackColor = true;
             // 
             // button7
             // 
-            button7.Dock = DockStyle.Fill;
+            resources.ApplyResources(button7, "button7");
             button7.FlatAppearance.BorderColor = Color.Black;
             button7.FlatAppearance.MouseDownBackColor = SystemColors.Control;
             button7.FlatAppearance.MouseOverBackColor = Color.White;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Copperplate Gothic Light", 39.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button7.Image = Properties.Resources.X;
-            button7.Location = new Point(0, 130);
-            button7.Margin = new Padding(0);
             button7.Name = "button7";
-            button7.Size = new Size(65, 67);
-            button7.TabIndex = 6;
             button7.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            button6.Dock = DockStyle.Fill;
+            resources.ApplyResources(button6, "button6");
             button6.FlatAppearance.BorderColor = Color.Black;
             button6.FlatAppearance.MouseDownBackColor = SystemColors.Control;
             button6.FlatAppearance.MouseOverBackColor = Color.White;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Copperplate Gothic Light", 39.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button6.Image = Properties.Resources.X;
-            button6.Location = new Point(131, 65);
-            button6.Margin = new Padding(0);
             button6.Name = "button6";
-            button6.Size = new Size(67, 65);
-            button6.TabIndex = 5;
             button6.UseVisualStyleBackColor = true;
             // 
             // button5
             // 
-            button5.Dock = DockStyle.Fill;
+            resources.ApplyResources(button5, "button5");
             button5.FlatAppearance.BorderColor = Color.Black;
             button5.FlatAppearance.MouseDownBackColor = SystemColors.Control;
             button5.FlatAppearance.MouseOverBackColor = Color.White;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Copperplate Gothic Light", 39.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button5.Image = Properties.Resources.X;
-            button5.Location = new Point(65, 65);
-            button5.Margin = new Padding(0);
             button5.Name = "button5";
-            button5.Size = new Size(66, 65);
-            button5.TabIndex = 4;
             button5.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            button4.Dock = DockStyle.Fill;
+            resources.ApplyResources(button4, "button4");
             button4.FlatAppearance.BorderColor = Color.Black;
             button4.FlatAppearance.MouseDownBackColor = SystemColors.Control;
             button4.FlatAppearance.MouseOverBackColor = Color.White;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Copperplate Gothic Light", 39.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.Image = Properties.Resources.X;
-            button4.Location = new Point(0, 65);
-            button4.Margin = new Padding(0);
             button4.Name = "button4";
-            button4.Size = new Size(65, 65);
-            button4.TabIndex = 3;
             button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Dock = DockStyle.Fill;
+            resources.ApplyResources(button3, "button3");
             button3.FlatAppearance.BorderColor = Color.Black;
             button3.FlatAppearance.MouseDownBackColor = SystemColors.Control;
             button3.FlatAppearance.MouseOverBackColor = Color.White;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Copperplate Gothic Light", 39.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button3.Image = Properties.Resources.X;
-            button3.Location = new Point(131, 0);
-            button3.Margin = new Padding(0);
             button3.Name = "button3";
-            button3.Size = new Size(67, 65);
-            button3.TabIndex = 2;
             button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Dock = DockStyle.Fill;
+            resources.ApplyResources(button2, "button2");
             button2.FlatAppearance.BorderColor = Color.Black;
             button2.FlatAppearance.MouseDownBackColor = SystemColors.Control;
             button2.FlatAppearance.MouseOverBackColor = Color.White;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Copperplate Gothic Light", 39.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.Image = Properties.Resources.X;
-            button2.Location = new Point(65, 0);
-            button2.Margin = new Padding(0);
             button2.Name = "button2";
-            button2.Size = new Size(66, 65);
-            button2.TabIndex = 1;
             button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            button1.Dock = DockStyle.Fill;
+            resources.ApplyResources(button1, "button1");
             button1.FlatAppearance.BorderColor = Color.Black;
             button1.FlatAppearance.MouseDownBackColor = SystemColors.Control;
             button1.FlatAppearance.MouseOverBackColor = Color.White;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Copperplate Gothic Light", 39.75F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Image = Properties.Resources.X;
-            button1.Location = new Point(0, 0);
-            button1.Margin = new Padding(0);
             button1.Name = "button1";
-            button1.Size = new Size(65, 65);
-            button1.TabIndex = 0;
             button1.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // splitContainer1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            resources.ApplyResources(splitContainer1, "splitContainer1");
+            splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            splitContainer1.Panel1.Controls.Add(tableLayoutPanel1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            splitContainer1.Panel2.Controls.Add(tableLayoutPanel2);
+            // 
+            // tableLayoutPanel2
+            // 
+            resources.ApplyResources(tableLayoutPanel2, "tableLayoutPanel2");
+            tableLayoutPanel2.Controls.Add(textBox9, 2, 2);
+            tableLayoutPanel2.Controls.Add(textBox8, 1, 2);
+            tableLayoutPanel2.Controls.Add(textBox7, 0, 2);
+            tableLayoutPanel2.Controls.Add(textBox4, 0, 1);
+            tableLayoutPanel2.Controls.Add(textBox3, 2, 0);
+            tableLayoutPanel2.Controls.Add(textBox2, 1, 0);
+            tableLayoutPanel2.Controls.Add(textBox1, 0, 0);
+            tableLayoutPanel2.Controls.Add(button10, 1, 1);
+            tableLayoutPanel2.Controls.Add(button11, 2, 1);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            // 
+            // textBox9
+            // 
+            resources.ApplyResources(textBox9, "textBox9");
+            textBox9.Name = "textBox9";
+            textBox9.ReadOnly = true;
+            // 
+            // textBox8
+            // 
+            resources.ApplyResources(textBox8, "textBox8");
+            textBox8.Name = "textBox8";
+            textBox8.ReadOnly = true;
+            // 
+            // textBox7
+            // 
+            textBox7.BorderStyle = BorderStyle.None;
+            resources.ApplyResources(textBox7, "textBox7");
+            textBox7.Name = "textBox7";
+            textBox7.ReadOnly = true;
+            // 
+            // textBox4
+            // 
+            textBox4.BorderStyle = BorderStyle.None;
+            resources.ApplyResources(textBox4, "textBox4");
+            textBox4.Name = "textBox4";
+            textBox4.ReadOnly = true;
+            // 
+            // textBox3
+            // 
+            resources.ApplyResources(textBox3, "textBox3");
+            textBox3.Name = "textBox3";
+            textBox3.ReadOnly = true;
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(textBox2, "textBox2");
+            textBox2.Name = "textBox2";
+            textBox2.ReadOnly = true;
+            // 
+            // textBox1
+            // 
+            textBox1.BorderStyle = BorderStyle.None;
+            resources.ApplyResources(textBox1, "textBox1");
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            // 
+            // button10
+            // 
+            resources.ApplyResources(button10, "button10");
+            button10.Name = "button10";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            resources.ApplyResources(button11, "button11");
+            button11.Name = "button11";
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // MainForm
+            // 
+            resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(198, 224);
-            Controls.Add(tableLayoutPanel1);
+            Controls.Add(splitContainer1);
             Controls.Add(menuStrip1);
             FormBorderStyle = FormBorderStyle.Fixed3D;
             MainMenuStrip = menuStrip1;
-            MinimumSize = new Size(218, 267);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "MainForm";
+            Load += MainForm_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             tableLayoutPanel1.ResumeLayout(false);
+            splitContainer1.Panel1.ResumeLayout(false);
+            splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
+            splitContainer1.ResumeLayout(false);
+            tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -337,6 +377,20 @@
         private Button button4;
         private Button button3;
         private Button button2;
-        private ToolStripTextBox toolStripTextBox1;
+        private SplitContainer splitContainer1;
+        private TableLayoutPanel tableLayoutPanel2;
+        private TextBox textBox4;
+        private TextBox textBox3;
+        private TextBox textBox2;
+        private TextBox textBox1;
+        private TextBox textBox9;
+        private TextBox textBox8;
+        private TextBox textBox7;
+        private ToolStripMenuItem startstopStripMenuItem1;
+        private Button button10;
+        private Button button11;
+        private ToolStripMenuItem toolStripMenuItem1;
+        private ToolStripMenuItem polishToolStripMenuItem;
+        private ToolStripMenuItem englishToolStripMenuItem;
     }
 }

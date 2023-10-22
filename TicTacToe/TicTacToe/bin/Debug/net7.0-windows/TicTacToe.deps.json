@@ -9,6 +9,11 @@
       "TicTacToe/1.0.0": {
         "runtime": {
           "TicTacToe.dll": {}
+        },
+        "resources": {
+          "pl/TicTacToe.resources.dll": {
+            "locale": "pl"
+          }
         }
       }
     }

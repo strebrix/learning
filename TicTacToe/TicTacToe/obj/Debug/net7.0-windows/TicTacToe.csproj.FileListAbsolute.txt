@@ -3,7 +3,6 @@ D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\Ti
 D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\TicTacToe.runtimeconfig.json
 D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\TicTacToe.dll
 D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\TicTacToe.pdb
-D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.Form1.resources
 D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.Properties.Resources.resources
 D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.csproj.GenerateResource.cache
 D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,3 +14,9 @@ D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\re
 D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.pdb
 D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.genruntimeconfig.cache
 D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\ref\TicTacToe.dll
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.MainForm.resources
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\bin\Debug\net7.0-windows\pl\TicTacToe.resources.dll
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.AboutMessageBox.pl.resources
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\pl\TicTacToe.resources.dll
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.AboutMessageBox.resources
+D:\Dev\Droga do seniora\learning\TicTacToe\TicTacToe\obj\Debug\net7.0-windows\TicTacToe.MainForm.pl.resources

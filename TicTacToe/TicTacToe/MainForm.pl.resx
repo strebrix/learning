@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!--
+  <!-- 
     Microsoft ResX Schema 
-
+    
     Version 2.0
-
-    The primary goals of this format is to allow a simple XML format
-    that is mostly human readable. The generation and parsing of the
-    various data types are done through the TypeConverter classes
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
     associated with the data types.
-
+    
     Example:
-
+    
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-
-    There are any number of "resheader" rows that contain simple
+                
+    There are any number of "resheader" rows that contain simple 
     name/value pairs.
-
-    Each data row contains a name, and value. The row also contains a
-    type or mimetype. Type corresponds to a .NET class that support
-    text/value conversion through the TypeConverter architecture.
-    Classes that don't support this are serialized and stored with the
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
     mimetype set.
-
-    The mimetype is used for serialized objects, and tells the
-    ResXResourceReader how to depersist the object. This is currently not
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
     extensible. For a given mimetype the value must be set accordingly:
-
-    Note - application/x-microsoft.net.object.binary.base64 is the format
-    that the ResXResourceWriter will generate, however the reader can
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
     read any of the formats listed below.
-
+    
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with
+    value   : The object must be serialized with 
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array
+    value   : The object must be serialized into a byte array 
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -117,21 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
   <data name="restartToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 22</value>
   </data>
   <data name="restartToolStripMenuItem.Text" xml:space="preserve">
-    <value>Restart</value>
+    <value>Zacznij od początku</value>
   </data>
   <data name="quitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 22</value>
   </data>
   <data name="quitToolStripMenuItem.Text" xml:space="preserve">
-    <value>Quit</value>
+    <value>Wyjście</value>
   </data>
   <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 6</value>
@@ -140,13 +140,13 @@
     <value>133, 22</value>
   </data>
   <data name="saveGameToolStripMenuItem.Text" xml:space="preserve">
-    <value>Save game</value>
+    <value>Zapisz grę</value>
   </data>
   <data name="loadGameToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 22</value>
   </data>
   <data name="loadGameToolStripMenuItem.Text" xml:space="preserve">
-    <value>Load game</value>
+    <value>Wczytaj grę</value>
   </data>
   <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 6</value>
@@ -155,25 +155,25 @@
     <value>133, 22</value>
   </data>
   <data name="aIToolStripMenuItem.Text" xml:space="preserve">
-    <value>AI</value>
+    <value>SI</value>
   </data>
   <data name="polishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 22</value>
   </data>
   <data name="polishToolStripMenuItem.Text" xml:space="preserve">
-    <value>Polish</value>
+    <value>Polski</value>
   </data>
   <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>112, 22</value>
   </data>
   <data name="englishToolStripMenuItem.Text" xml:space="preserve">
-    <value>English</value>
+    <value>Angielski</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 22</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
-    <value>Language</value>
+    <value>Język</value>
   </data>
   <data name="menuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 20</value>
@@ -185,7 +185,7 @@
     <value>52, 20</value>
   </data>
   <data name="helpStripMenuItem1.Text" xml:space="preserve">
-    <value>About</value>
+    <value>O programie</value>
   </data>
   <data name="startstopStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 20</value>
@@ -197,7 +197,7 @@
     <value>0, 0</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 24</value>
+    <value>198, 24</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
@@ -221,7 +221,7 @@
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button9.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
@@ -232,14 +232,13 @@
     <value>Copperplate Gothic Light, 39.75pt</value>
   </data>
   <data name="button9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 136</value>
+    <value>131, 134</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="button9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 69</value>
+    <value>67, 69</value>
   </data>
   <data name="button9.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -266,13 +265,13 @@
     <value>Copperplate Gothic Light, 39.75pt</value>
   </data>
   <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>67, 136</value>
+    <value>65, 134</value>
   </data>
   <data name="button8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 69</value>
+    <value>66, 69</value>
   </data>
   <data name="button8.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -299,13 +298,13 @@
     <value>Copperplate Gothic Light, 39.75pt</value>
   </data>
   <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 136</value>
+    <value>0, 134</value>
   </data>
   <data name="button7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 69</value>
+    <value>65, 69</value>
   </data>
   <data name="button7.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -332,13 +331,13 @@
     <value>Copperplate Gothic Light, 39.75pt</value>
   </data>
   <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 68</value>
+    <value>131, 67</value>
   </data>
   <data name="button6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 68</value>
+    <value>67, 67</value>
   </data>
   <data name="button6.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -365,13 +364,13 @@
     <value>Copperplate Gothic Light, 39.75pt</value>
   </data>
   <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>67, 68</value>
+    <value>65, 67</value>
   </data>
   <data name="button5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 68</value>
+    <value>66, 67</value>
   </data>
   <data name="button5.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -398,13 +397,13 @@
     <value>Copperplate Gothic Light, 39.75pt</value>
   </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 68</value>
+    <value>0, 67</value>
   </data>
   <data name="button4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 68</value>
+    <value>65, 67</value>
   </data>
   <data name="button4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -431,13 +430,13 @@
     <value>Copperplate Gothic Light, 39.75pt</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>134, 0</value>
+    <value>131, 0</value>
   </data>
   <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 68</value>
+    <value>67, 67</value>
   </data>
   <data name="button3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -464,13 +463,13 @@
     <value>Copperplate Gothic Light, 39.75pt</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>67, 0</value>
+    <value>65, 0</value>
   </data>
   <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 68</value>
+    <value>66, 67</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -503,7 +502,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 68</value>
+    <value>65, 67</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -530,7 +529,7 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 205</value>
+    <value>198, 203</value>
   </data>
   <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -548,7 +547,7 @@
     <value>0</value>
   </data>
   <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button9" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button8" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button7" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button6" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button5" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button3" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33.33333,Percent,33.333336,Percent,33.333336" /&gt;&lt;Rows Styles="Percent,33.333332,Percent,33.333332,Percent,33.333332" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button9" Row="2" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button8" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button7" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button6" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button5" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="button3" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="button2" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="button1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,33.33333,Percent,33.33334,Percent,33.33334" /&gt;&lt;Rows Styles="Percent,33.33333,Percent,33.33333,Percent,33.33333" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <data name="splitContainer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -578,10 +577,10 @@
     <value>Fill</value>
   </data>
   <data name="textBox9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 61</value>
+    <value>127, 61</value>
   </data>
   <data name="textBox9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>68, 23</value>
   </data>
   <data name="textBox9.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -611,7 +610,7 @@
     <value>53, 61</value>
   </data>
   <data name="textBox8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>68, 23</value>
   </data>
   <data name="textBox8.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -650,7 +649,7 @@
     <value>6</value>
   </data>
   <data name="textBox7.Text" xml:space="preserve">
-    <value>Score:</value>
+    <value>Wynik:</value>
   </data>
   <data name="&gt;&gt;textBox7.Name" xml:space="preserve">
     <value>textBox7</value>
@@ -680,7 +679,7 @@
     <value>3</value>
   </data>
   <data name="textBox4.Text" xml:space="preserve">
-    <value>X or O:</value>
+    <value>X czy O:</value>
   </data>
   <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
     <value>textBox4</value>
@@ -698,16 +697,16 @@
     <value>Fill</value>
   </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 3</value>
+    <value>127, 3</value>
   </data>
   <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>68, 23</value>
   </data>
   <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="textBox3.Text" xml:space="preserve">
-    <value>Player2</value>
+    <value>Gracz2</value>
   </data>
   <data name="textBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
@@ -731,13 +730,13 @@
     <value>53, 3</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>68, 23</value>
   </data>
   <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="textBox2.Text" xml:space="preserve">
-    <value>Player1</value>
+    <value>Gracz1</value>
   </data>
   <data name="textBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
     <value>Center</value>
@@ -770,7 +769,7 @@
     <value>0</value>
   </data>
   <data name="textBox1.Text" xml:space="preserve">
-    <value>Name:</value>
+    <value>Nazwa:</value>
   </data>
   <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
     <value>textBox1</value>
@@ -809,7 +808,7 @@
     <value>7</value>
   </data>
   <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 32</value>
+    <value>127, 32</value>
   </data>
   <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 23</value>
@@ -842,7 +841,7 @@
     <value>3</value>
   </data>
   <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 90</value>
+    <value>198, 88</value>
   </data>
   <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -878,10 +877,10 @@
     <value>87</value>
   </data>
   <data name="splitContainer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>202, 299</value>
+    <value>198, 295</value>
   </data>
   <data name="splitContainer1.SplitterDistance" type="System.Int32, mscorlib">
-    <value>205</value>
+    <value>203</value>
   </data>
   <data name="splitContainer1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -898,14 +897,14 @@
   <data name="&gt;&gt;splitContainer1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>202, 323</value>
+    <value>198, 319</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>218, 362</value>
