@@ -8,7 +8,14 @@ namespace TicTacToe;
 
 internal class BoardModel
 {
-    public osAndExes[,] board = new osAndExes[3,3];
-    public bool xWon = false;
-    public bool yWon = false;
+    public boardSpotDescriptor[,] board;
+    public bool xWon;
+    public bool yWon;
+
+    public BoardModel()
+    {
+        boardSpotDescriptor[,] board = new boardSpotDescriptor[3, 3];
+        xWon = false;
+        yWon = false;
+    }
 }

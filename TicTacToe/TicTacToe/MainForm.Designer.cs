@@ -38,9 +38,6 @@
             loadGameToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator2 = new ToolStripSeparator();
             aIToolStripMenuItem = new ToolStripMenuItem();
-            toolStripMenuItem1 = new ToolStripMenuItem();
-            polishToolStripMenuItem = new ToolStripMenuItem();
-            englishToolStripMenuItem = new ToolStripMenuItem();
             helpStripMenuItem1 = new ToolStripMenuItem();
             startstopStripMenuItem1 = new ToolStripMenuItem();
             tableLayoutPanel1 = new TableLayoutPanel();
@@ -81,7 +78,7 @@
             // 
             // menuToolStripMenuItem
             // 
-            menuToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { restartToolStripMenuItem, quitToolStripMenuItem, toolStripSeparator1, saveGameToolStripMenuItem, loadGameToolStripMenuItem, toolStripSeparator2, aIToolStripMenuItem, toolStripMenuItem1 });
+            menuToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { restartToolStripMenuItem, quitToolStripMenuItem, toolStripSeparator1, saveGameToolStripMenuItem, loadGameToolStripMenuItem, toolStripSeparator2, aIToolStripMenuItem });
             menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             resources.ApplyResources(menuToolStripMenuItem, "menuToolStripMenuItem");
             // 
@@ -123,24 +120,6 @@
             resources.ApplyResources(aIToolStripMenuItem, "aIToolStripMenuItem");
             aIToolStripMenuItem.Click += aIToolStripMenuItem_Click;
             // 
-            // toolStripMenuItem1
-            // 
-            toolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { polishToolStripMenuItem, englishToolStripMenuItem });
-            toolStripMenuItem1.Name = "toolStripMenuItem1";
-            resources.ApplyResources(toolStripMenuItem1, "toolStripMenuItem1");
-            // 
-            // polishToolStripMenuItem
-            // 
-            polishToolStripMenuItem.Name = "polishToolStripMenuItem";
-            resources.ApplyResources(polishToolStripMenuItem, "polishToolStripMenuItem");
-            polishToolStripMenuItem.Click += polishToolStripMenuItem_Click;
-            // 
-            // englishToolStripMenuItem
-            // 
-            englishToolStripMenuItem.Name = "englishToolStripMenuItem";
-            resources.ApplyResources(englishToolStripMenuItem, "englishToolStripMenuItem");
-            englishToolStripMenuItem.Click += englishToolStripMenuItem_Click;
-            // 
             // helpStripMenuItem1
             // 
             helpStripMenuItem1.Name = "helpStripMenuItem1";
@@ -175,6 +154,7 @@
             button9.FlatAppearance.MouseOverBackColor = Color.White;
             button9.Name = "button9";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += board_Click;
             // 
             // button8
             // 
@@ -184,6 +164,7 @@
             button8.FlatAppearance.MouseOverBackColor = Color.White;
             button8.Name = "button8";
             button8.UseVisualStyleBackColor = true;
+            button8.Click += board_Click;
             // 
             // button7
             // 
@@ -193,6 +174,7 @@
             button7.FlatAppearance.MouseOverBackColor = Color.White;
             button7.Name = "button7";
             button7.UseVisualStyleBackColor = true;
+            button7.Click += board_Click;
             // 
             // button6
             // 
@@ -202,6 +184,7 @@
             button6.FlatAppearance.MouseOverBackColor = Color.White;
             button6.Name = "button6";
             button6.UseVisualStyleBackColor = true;
+            button6.Click += board_Click;
             // 
             // button5
             // 
@@ -211,6 +194,7 @@
             button5.FlatAppearance.MouseOverBackColor = Color.White;
             button5.Name = "button5";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += board_Click;
             // 
             // button4
             // 
@@ -220,6 +204,7 @@
             button4.FlatAppearance.MouseOverBackColor = Color.White;
             button4.Name = "button4";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += board_Click;
             // 
             // button3
             // 
@@ -229,6 +214,7 @@
             button3.FlatAppearance.MouseOverBackColor = Color.White;
             button3.Name = "button3";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += board_Click;
             // 
             // button2
             // 
@@ -238,6 +224,7 @@
             button2.FlatAppearance.MouseOverBackColor = Color.White;
             button2.Name = "button2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += board_Click;
             // 
             // button1
             // 
@@ -247,6 +234,7 @@
             button1.FlatAppearance.MouseOverBackColor = Color.White;
             button1.Name = "button1";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += board_Click;
             // 
             // splitContainer1
             // 
@@ -389,8 +377,5 @@
         private ToolStripMenuItem startstopStripMenuItem1;
         private Button button10;
         private Button button11;
-        private ToolStripMenuItem toolStripMenuItem1;
-        private ToolStripMenuItem polishToolStripMenuItem;
-        private ToolStripMenuItem englishToolStripMenuItem;
     }
 }

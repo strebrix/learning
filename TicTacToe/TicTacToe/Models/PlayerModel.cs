@@ -9,7 +9,7 @@ namespace TicTacToe;
 internal class PlayerModel
 {
     public bool isStarting = false;
-    public xOrO alias;
+    public playerDesignation designation;
     public uint score = 0;
     public string name = "";
 }
